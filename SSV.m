@@ -1,3 +1,20 @@
+% =========================================================================
+% Code for: "Data-Driven Estimation of Structured Singular Values"
+%
+% Author: Margarita Andrea Guerrero Salazar (aka MAGS)
+% Contact: mags3@kth.se
+%
+% If you use this code, please cite the associated paper:
+%   M. A. Guerrero, B. Lakshminarayanan, C. R. Rojas,
+%   "Data-Driven Estimation of Structured Singular Values",
+%   https://arxiv.org/abs/2503.13410
+%
+% This code is provided for academic and research purposes only.
+% Any reproduction, modification, or distribution should properly cite the paper above.
+%
+% © 2025 MAGS. All rights reserved.
+% =========================================================================
+
 seed=5; %For Paper reproducibility
 rng(seed);
 
