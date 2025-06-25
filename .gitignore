@@ -1,0 +1,24 @@
+# Temporary MATLAB files
+*.asv
+*.m~
+*.mlx~
+*.bak
+*.orig
+
+# MATLAB binary files
+*.fig
+*.mat
+*.p
+
+# Output and export files (figures, plots, etc.)
+*.eps
+*.pdf
+*.png
+*.svg
+
+# Editor or system-specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+__pycache__/
