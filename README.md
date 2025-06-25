@@ -11,7 +11,7 @@ Margarita A. Guerrero, Braghadeesh Lakshminarayanan, Cristian R. Rojas
 
 This code implements a **data-driven method** to compute a **lower bound on the structured singular value (SSV)** of a discrete-time linear time-invariant system. The method relies exclusively on **input-output time-domain experiments**, requiring **no model of the plant**, and assumes prior knowledge of the **structure of the uncertainty block**.
 
-The approach is based on a frequency-wise **power iteration scheme**, where time-domain experiments are used to approximate frequency responses via the Discrete Fourier Transform (DFT), in both forward and backward directions. This procedure estimates two bounds, denoted as $ \tilde{\mu} $ and $ \bar{\mu} $, which converge under mild assumptions to a valid lower bound of the structured singular value.
+The approach is based on a frequency-wise **power iteration scheme**, where time-domain experiments are used to approximate frequency responses via the Discrete Fourier Transform (DFT), in both forward and backward directions. This procedure estimates two bounds, denoted as $\tilde{\mu}$ and $\bar{\mu}$, which converge under mild assumptions to a valid lower bound of the structured singular value.
 
 As a baseline comparison, the method also computes the model-based lower bound via MATLAB's `mussv` function from the Robust Control Toolbox, using the exact same block structure.
 
@@ -28,7 +28,7 @@ SSV.m
 This file contains all necessary routines to simulate the proposed method. It includes:
 
 - Utility functions for evaluating transfer functions and simulating the plant
-- The main algorithm that computes $ \tilde{\mu} $ and $ \bar{\mu} $ using data only
+- The main algorithm that computes $\tilde{\mu}$ and $\bar{\mu}$ using data only
 - An example corresponding to **Figure 3** of the paper
 
 ---
